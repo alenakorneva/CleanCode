@@ -1,14 +1,9 @@
-import Planes.ExperimentalPlane;
-import models.MilitaryType;
-import Planes.MilitaryPlane;
-import Planes.PassengerPlane;
-import Planes.Plane;
-
+import models.*;
+import planes.*;
 import java.util.*;
 
 public class Airport {
     private final List<? extends Plane> planes;
-
 
     public List<PassengerPlane> getPassengerPlane() {
         List<? extends Plane> planes = this.planes;
