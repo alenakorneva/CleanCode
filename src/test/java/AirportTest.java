@@ -3,7 +3,7 @@ import models.ClassificationLevel;
 import models.ExperimentalTypes;
 import models.MilitaryType;
 import org.junit.Assert;
-import org.testng.annotations.Test;
+import org.junit.Test;
 import planes.MilitaryPlane;
 import planes.PassengerPlane;
 import planes.Plane;
